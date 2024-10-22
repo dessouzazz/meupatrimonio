@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+}
+
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5; /* Melhora a legibilidade do texto */
+}
+
+footer{
+    background-color: #093b7c; /* Cor de fundo */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    bottom: 0; /* Se necessário para posicionar no fundo da página */
+    width: 100%; /* Largura total */
+    padding-top: 30px;
+    font-size: 14px;
+    max-width: 100%;
+}
+
+footer p{
+    font-style: italic;
+}
+
+#v{
+    font-size: 10px;
+    padding: 20px;
+}
+#unirios{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+}
+#logoprincipal{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+}
+#jatoba{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+}
+
+#container{
+    margin-bottom: 200px;
+    background-color: #71b1ec; 
+    width: 800px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
