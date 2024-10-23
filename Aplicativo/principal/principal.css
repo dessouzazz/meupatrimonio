@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #0d5a86;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    height: 100px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header ul li{
+    padding-right: 30px;
+
+}
+
+header ul li a{
+    padding-right: 20px;
+}
+
+#container{
+    display: flex;
+}
+
+#left{
+    width: 50%;
+    height: 800px;
+    float: left;
+    background-image: url(../assets/images/predios.jpg);
+    background-size: cover;
+}
+
+#left #usuario{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left img{
+    height: 100px;
+}
+
+#left #info{
+    display: block;
+}
+
+#left #botoes{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 120px;
+
+}
+
+#left #botoes fieldset{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+#right{
+    width: 50%;
+    height: 800px;
+    float: right;
+
+    background-color: #0B699F;
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#right div{
+    padding: 20px;
+}
+
+#right #fundo{
+    margin-top: 100px;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+#right #busca input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+#right div label{
+    font-size: 30px;
+}
+
+#right #formulario input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+
+footer{
+    background-color: #093b7c;
+    text-align: center;
+    height: 91px;
+    font-size: 14px;
+}
+
+footer p{
+    padding-top: 20px;
+    color: aliceblue;
+}
+
