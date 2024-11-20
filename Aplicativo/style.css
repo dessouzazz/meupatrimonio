@@ -6,11 +6,33 @@
 
 body{
     height: 100vh;
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 1.5; /* Melhora a legibilidade do texto */
+}
+
+h1{
+    margin-bottom: 20px;
+    color: #093b7c; /* Cor do título */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd; /* Borda sutil */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: border 0.3s, box-shadow 0.3s; /* Transições suaves */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #093b7c; /* Cor da borda em foco */
+    box-shadow: 0 0 5px rgba(9, 59, 124, 0.5); /* Sombra em foco */
+    outline: none; /* Remove o contorno padrão */
 }
 
 footer{
@@ -60,4 +82,9 @@ footer p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 20px;
+    padding:50px ;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
+
